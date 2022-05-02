@@ -1,0 +1,40 @@
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 134px;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria1{
+    position: relative;
+    bottom: 100px;
+    transition: all .5s;
+    border-left: 0px solid transparent;
+}
+
+.galeria2{
+    position: relative;
+    top: 100px;
+    transition: all .5s;
+    border-left: 0px solid transparent;
+}
+
+.galeria3{
+    position: relative;
+    bottom: 100px;
+    transition: all .5s;
+    border-left: 0px solid transparent;
+}
+
+.galeria4{
+    position: relative;
+    top: 100px;
+    transition: all .5s;
+    border-left: 0px solid transparent;
+}
+
+.galeria1:hover, .galeria2:hover, .galeria3:hover, .galeria4:hover{
+    border-left: 10px solid var(--accent-color);
+}

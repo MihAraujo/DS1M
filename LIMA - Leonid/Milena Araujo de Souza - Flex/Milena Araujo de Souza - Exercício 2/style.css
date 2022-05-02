@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: violet;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+nav{
+    background-color: royalblue;
+    flex-grow: 1;
+}
+article{
+    background-color: salmon;
+    flex-grow: 2;
+}
+aside{
+    background-color: seagreen;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: rgb(64, 19, 110);
+    height: 50px;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: violet;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    /* color: white; */
+}
+
+main {
+    background-color: tomato;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: aqua;
+    height: 50px;
+}

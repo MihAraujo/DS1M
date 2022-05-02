@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+} 
+
+nav {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 6;
+}
+
+header {
+    background-color: brown;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+article {
+    background-color: chartreuse;
+    flex-grow: 3;
+}
+
+aside {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    height: 50px;
+}
